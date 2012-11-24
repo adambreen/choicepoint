@@ -27,7 +27,19 @@ app.configure('development', function(){
 });
 
 app.get('/', function (req, res){
-  res.redirect('/index.html');
+  res.sendfile('./public/info.html');
+});
+
+app.get(/info\/?.*/, function (req, res){
+  res.sendfile('./public/info.html');
+});
+
+app.get(/annai\/?.*/, function (req, res){
+  res.sendfile('./public/annai.html');
+});
+
+app.get(/booking\/?.*/, function (req, res){
+  res.sendfile('./public/booking.html');
 });
 
 http.createServer(app).listen(app.get('port'), function(){
