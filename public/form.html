@@ -1,0 +1,60 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+</head>
+<body>
+
+
+<input type=hidden name="oid" value="00D90000000heyQ">
+<input type=hidden name="retURL" value="http://www.choicepoint.jp/arigato">
+<hr />
+<label for="A-testA">TestA</label><input id="A-testA" /><br />
+<button class="send" id="send1" value="send">SEND</button><br /><br /><br />
+<hr />
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<input type=hidden id="lead_source" name="lead_source" value="" />
+<input type=hidden id="recordType" name="recordType" value="Internal Lead" />
+<input type=hidden id="Campaign_ID" name="Campaign_ID" value="" />
+<!--affiliate code--><input  id="00N90000004H2pU" name="00N90000004H2pU" type="hidden" value=""/>
+<br /><br /><br />
+<hr />
+<label for="B-testA">TestA</label><input id="B-testA" /><br />
+<button class="send" id="send2" value="send">SEND</button>
+<hr />
+
+
+
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="submitForm">
+	<input type="hidden" id="testA" />
+	<input type="hidden" id="testB" />
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/affiliate.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('input').blur(onInputBlur);
+		$('.send').click(onClickSend);
+	});
+
+	function onInputBlur(e){
+		var
+			targetId = this.id.substr(2),
+			target   = $('#' + targetId)
+		;
+
+		target.val($(this).val());
+	}
+
+	function onClickSend(){
+		$('#submitForm').submit();
+	}
+</script>
+</body>
+</html>

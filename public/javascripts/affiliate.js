@@ -7,7 +7,7 @@ $(document).ready(function (){
 		affiliateCode
 	;
 
-	if(matches.length){
+	if(matches && matches.length){
 		affiliateCode = matches[1];
 		affiliateInput.val(function (index, value) { return affiliateCode; });
 	}

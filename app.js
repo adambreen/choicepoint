@@ -52,6 +52,15 @@ app.get(/test\/?.*/, function (req, res){
   res.sendfile('./public/form.html');
 });
 
+app.post(/test/, function (req, res){
+    console.log(req);
+    res.end(200);
+});
+
+
+
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
+
