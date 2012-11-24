@@ -3,12 +3,12 @@ $(document).ready(function (){
 
 	var
 		affiliateInput = $('#00N90000004H2pU'),
-		matches        = document.URL.match(/https?:\/\/.*choicepoint.jp\/(info|test)\/?(.*)/),
+		matches        = document.URL.match(/https?:\/\/.*choicepoint.jp\/info|test\/?(.*)/),
 		affiliateCode
 	;
 
 	if(matches.length){
-		affiliateCode = matches[1];
+		affiliateCode = matches[2];
 		affiliateInput.val(affiliateCode);
 	}
 
