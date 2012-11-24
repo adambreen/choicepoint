@@ -33,7 +33,7 @@ img {
     margin: 0 auto 0;
     border-left: 10px #e0d525 solid;
     border-right: 10px #e0d525 solid;
-    background:url(img/cp_top.jpg) center top no-repeat;
+    background:url(/img/cp_top.jpg) center top no-repeat;
     height:640px;
 }
 
@@ -42,7 +42,7 @@ img {
     margin: auto;
     border-left: 10px #e0d525 solid;
     border-right: 10px #e0d525 solid;
-    background:url(img/cp_top_gest1.jpg) center top no-repeat;
+    background:url(/img/cp_top_gest1.jpg) center top no-repeat;
     height:540px;
 }
 
@@ -51,7 +51,7 @@ img {
     margin: auto;
     border-left: 10px #e0d525 solid;
     border-right: 10px #e0d525 solid;
-    background:url(img/cp_top_gest2.jpg) center top no-repeat;
+    background:url(/img/cp_top_gest2.jpg) center top no-repeat;
     height:818px;
 }
 
@@ -121,7 +121,7 @@ h5{
 p{
     font-size:14px;
     line-height: 35px;
-    background-image: url(img/note_line.png);
+    background-image: url(/img/note_line.png);
     font-family: "ＭＳ Ｐゴシック",sans-serif;
 }
 
@@ -199,7 +199,7 @@ line-height: 40px;
 }
 
 #st_q{
-    background:#DEF3FA url(img/bg_ques.png) right bottom no-repeat;
+    background:#DEF3FA url(/img/bg_ques.png) right bottom no-repeat;
     padding: 0 10px 10px;
     margin: 0 30px 20px;
     border: 1px #eee solid;
@@ -250,7 +250,7 @@ line-height: 40px;
     color:#fff;
     font-size:14px;
     line-height: 35px;
-    background-image: url(img/note_line_w.png);
+    background-image: url(/img/note_line_w.png);
 }
 
 #st_taiken img {
@@ -263,7 +263,7 @@ line-height: 40px;
     margin: 10px auto;
     padding: 0　5px;
     width: 630px;
-    background:url(img/bg_tokuten.jpg) top center repeat-y;
+    background:url(/img/bg_tokuten.jpg) top center repeat-y;
     border: #fffbc8 1px solid;
 }
 
@@ -315,17 +315,17 @@ width:340px;
 height:90px;
 margin:10px auto 20px;
 text-align:center;
-background:url(img/button_app.png) top center no-repeat;
+background:url(/img/button_app.png) top center no-repeat;
 color:transparent;
 font-size:10px;
 }
 
 #app:hover{
-    background:url(img/button_app_on.png) top center no-repeat;
+    background:url(/img/button_app_on.png) top center no-repeat;
 }
 
 #waku2{
-    background:url(img/bg_prog.png) top center repeat-y;
+    background:url(/img/bg_prog.png) top center repeat-y;
     margin: 0 30px 10px;
     padding: 5px 10px 10px;
 }
@@ -335,7 +335,7 @@ font-size:10px;
     height: 40px
     padding: 0 10px;
     margin: 0 auto;
-    background:url(img/q1.jpg) bottom center no-repeat;
+    background:url(/img/q1.jpg) bottom center no-repeat;
 }
 
 #q2{
@@ -343,7 +343,7 @@ font-size:10px;
     height: 80px;
     padding: 0 10px;
     margin: 0 auto;
-    background:url(img/q2.jpg) bottom center no-repeat;
+    background:url(/img/q2.jpg) bottom center no-repeat;
 }
 
 #q1 h4 {
