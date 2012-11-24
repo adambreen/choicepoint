@@ -1,0 +1,446 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #030037;
+    background-image: url();
+    background-repeat: repeat-y;
+    background-position:center;
+    font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+a:link {
+    color: #8F1B74;
+    text-decoration:none;
+}
+a:hover {
+    color: #E85DC8;
+    text-decoration:none;
+}
+a:active {
+    color: #E85DC8;
+    text-decoration:none;
+}
+
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+
+.header {    
+    width: 800px;
+    margin: 0 auto 0;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+    background:url(img/cp_top.jpg) center top no-repeat;
+    height:640px;
+}
+
+.header_l {    
+    width: 800px;
+    margin: 0 auto 0;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+    background:url(img/cp_ltop.jpg) center top no-repeat;
+    height:274px;
+}
+
+
+.gest1 {    
+    width: 800px;
+    margin: auto;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+    background:url(img/cp_top_gest1.jpg) center top no-repeat;
+    height:540px;
+}
+
+.gest2 {    
+    width: 800px;
+    margin: auto;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+    background:url(img/cp_top_gest2.jpg) center top no-repeat;
+    height:818px;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#center {
+    background-color: #fff;
+    font-size: 14px;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+    width: 800px;
+    margin: auto;
+}
+
+.footer {
+    text-align:center;
+    background-color: #fff;
+    font-size: 14px;
+    margin: 0 auto 0;
+    padding: 10px 0;
+    width: 800px;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+   // border-bottom: 10px #e0d525 solid;
+}
+.footer h5{
+     font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    // font-family: default;
+}
+
+
+h1,h2,h3,h4,h5,p{
+    font-family: default;
+    color: #000;
+}
+
+h1{
+    font-size:50px;
+    text-align:center;
+}
+
+h2{
+    font-size:28px;
+    text-align:center;
+    text-shadow: 1px 1px 3px #eee;  
+}
+
+h3{
+    font-size:22px;
+    line-height: 40px;
+    text-align:center;
+}
+
+h4{
+    font-size:18px;
+    line-height: 35px;
+    text-align:center;
+}
+
+h5{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+p{
+    font-size:14px;
+    line-height: 35px;
+    background-image: url(img/note_line.png);
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+
+#column1{
+ background: url() center;
+ margin: 50px 0　0;
+ padding: 30px 50px 30px;
+ //border-top: 1px #eee solid;
+}
+
+#column1 h5{
+ font-family: "ＭＳ Ｐゴシック",sans-serif;
+ font-weight:normal;
+}
+
+#column_tokuten{
+ background: #fff;
+ margin: 50px 0　0;
+ padding: 20px;
+ //border-top: 1px #eee solid;
+}
+
+#column_tokuten h4{
+ color: #3D0D3D;
+}
+
+#column_tokuten p{
+ text-align:center;
+ background:none;
+ font-weight:normal;
+}
+
+#st1{
+ margin: 50px;
+ padding: 40px;
+ border: 2px #eee solid; 
+}
+
+#st1  h2 {
+ font-size:30px;
+ color:#FF6EEE;
+ text-align:center;
+ margin: 80px auto; 
+}
+
+#st2{
+    background-image: url();
+    margin: 0 30px 10px;
+    padding: 5px 10px 10px;
+}
+
+#st2 h2{
+    padding:20px;
+    letter-spacing: 0.2em;
+    color:#C700C7;
+    text-align:center;
+}
+
+#st3{
+    margin: 0 30px 10px;
+    padding: 10px;
+    border: 1px #eee solid; 
+}
+
+#st3 h5{
+font-size: 14px;
+line-height: 40px;
+}
+
+#st3 img {
+ vertical-align:middle;
+ display: inline;
+ margin: -5px 3px 0 0;
+ text-align: left;
+}
+
+#st_q{
+    background:#DEF3FA url(img/bg_ques.png) right bottom no-repeat;
+    padding: 0 10px 10px;
+    margin: 0 30px 20px;
+    border: 1px #eee solid; 
+}
+
+#st_q p{
+    font-size: 13px;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+
+#st_letter{
+    margin: 50px 100px 50px;
+    padding: 10px; 
+    height: 3700px;
+}
+
+#st_letter h2{
+    padding:20px;
+    letter-spacing: 0.2em;
+    color:#C700C7;
+    text-align:center;
+}
+
+#st_c{
+    text-align:center;
+    padding:0 auto;
+    margin:0 auto 20px;
+}
+
+#st_taiken{
+    border: 1px #eee solid;
+    margin: 0 30px 10px;
+    padding: 5px 20px 10px;
+    background:#7aba92;
+}
+
+#st_taiken h5{
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+    border-bottom: #fff 1px solid;
+}
+
+#st_taiken p{
+    color:#fff;
+    font-size:14px;
+    line-height: 35px;
+    background-image: url(img/note_line_w.png);
+}
+
+#st_taiken img {
+ display: inline;
+ margin: -5px 3px 0 0;
+ text-align: left;
+}
+
+#st_tokuten {
+    margin: 10px auto;
+    padding: 0　5px;
+    width: 630px;
+    background:url(img/bg_tokuten.jpg) top center repeat-y;
+    border: #fffbc8 1px solid;
+}
+
+#st_tokuten h2{
+    margin-top:10px;
+    padding:10px 0 0;
+    color: #3D0D3D;
+}
+
+#st_tokuten h4{ 
+    color:#000;
+}
+
+#st_last{
+    height:2600px;
+    margin: 50px 100px 50px;
+    padding: 10px; 
+}
+
+#st_last p{
+    color:#3D0D3D;
+}
+
+#st_nedan{
+    margin: 0 10px;
+    padding: 0 55px 10px;
+}
+
+#st_nedan h5{
+    font-size:14px;
+}
+
+#st_nedan h3,p{
+    text-align:left;
+}
+
+#st_hosho{
+    margin: 0 10px 0;
+}
+
+#st_hosho h5{
+    color:#3D0D3D;
+    font-size:14px;
+    line-height:21px;
+    text-align:center;
+}
+#app {
+width:340px;
+height:90px;
+margin:10px auto 20px;
+text-align:center;
+background:url(img/button_app.png) top center no-repeat;
+color:transparent;
+font-size:10px;
+}
+
+#app:hover{
+    background:url(img/button_app_on.png) top center no-repeat;
+}
+
+#waku2{
+    background:url(img/bg_prog.png) top center repeat-y;
+    margin: 0 30px 10px;
+    padding: 5px 10px 10px;
+}
+
+#q1{
+    width: 640px;
+    height: 40px
+    padding: 0 10px;
+    margin: 0 auto;
+    background:url(img/q1.jpg) bottom center no-repeat;
+}
+
+#q2{
+    width: 640px;
+    height: 80px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background:url(img/q2.jpg) bottom center no-repeat;
+}
+
+#q1 h4 {
+margin:0;
+padding: 0 10px;
+font-weight:normal;
+color:#fff;
+font-size:18px;
+text-align:left;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+
+#q2 h4 {
+margin:0;
+padding: 0 10px;
+font-weight:normal;
+color:#fff;
+font-size:18px;
+text-align:left;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+
+#kaisai{
+    margin: 20px 40px;
+    padding: 20px;
+    background:#fff;
+    border: #eee 1px solid;
+}
+
+#kaisai p{
+    color:#FF0000;
+    font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    font-weight:bold;
+}
+
+/*omoushikomi-----------------------------------------------------*/
+
+.header2 {    
+    width: 800px;
+    margin: 0 auto 0;
+    border-left: 10px #e0d525 solid;
+    border-right: 10px #e0d525 solid;
+}
+
+#st_order{
+    background-image: url();
+    margin: 0 30px 10px;
+    padding: 5px 10px 10px;
+    text-align: center;
+}
+
+#st_order p{
+    text-align: center;
+}
+
+#st_order h2{
+    font-size:32px;
+    letter-spacing: 0.2em;
+    color:#C700C7;
+    text-align:center;
+    font-weight:bold;
+}
+
+#st_order h5{
+    font-size:15px;
+    font-weight:bold;
+    background-image: url();
+    margin: 0 30px 10px;
+    padding: 5px 10px 10px;
+    text-align: center;
+}
+
+form p{
+    background :none;
+}
+
+/*landing-----------------------------------------------------*/
+#column_g {
+    margin: 30px 0;
+    padding: 5px 0;
+    background:#eee;
+
+}
+
+#column_g h2{
+    font-size:14px;
+    color:#C700C7;
+    text-align:center;
+    font-weight:bold;
+}
