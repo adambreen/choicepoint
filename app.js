@@ -48,6 +48,10 @@ app.get(/arigato/, function (req, res){
   res.sendfile('./public/pages/arigato.html');
 });
 
+app.get(/test\/?.*/, function (req, res){
+  res.sendfile('./public/form.html');
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
