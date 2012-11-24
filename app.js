@@ -3,10 +3,13 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes')
-  , http = require('http')
-  , path = require('path');
+var
+    express = require('express'),
+    connect = require('express/node_modules/connect'),
+    routes  = require('./routes'),
+    http    = require('http'),
+    path    = require('path')
+;
 
 var app = express();
 
@@ -19,6 +22,7 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
+  app.use(connect.compress());
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
