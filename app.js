@@ -46,6 +46,10 @@ app.get(/booking\/?.*/, function (req, res){
   res.sendfile('./public/pages/booking.html');
 });
 
+app.get(/arigato/, function (req, res){
+  res.sendfile('./public/pages/arigato.html');
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
