@@ -27,19 +27,19 @@ app.configure('development', function(){
 });
 
 app.get('/', function (req, res){
-  res.sendfile('./public/info.html');
+  res.sendfile('./public/pages/info.html');
 });
 
 app.get(/info\/?.*/, function (req, res){
-  res.sendfile('./public/info.html');
+  res.sendfile('./public/pages/info.html');
 });
 
 app.get(/annai\/?.*/, function (req, res){
-  res.sendfile('./public/annai.html');
+  res.sendfile('./public/pages/annai.html');
 });
 
 app.get(/booking\/?.*/, function (req, res){
-  res.sendfile('./public/booking.html');
+  res.sendfile('./public/pages/booking.html');
 });
 
 http.createServer(app).listen(app.get('port'), function(){
