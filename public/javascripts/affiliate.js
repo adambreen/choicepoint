@@ -9,7 +9,7 @@ $(document).ready(function (){
 
 	if(matches.length){
 		affiliateCode = matches[2];
-		affiliateInput.val(affiliateCode);
+		affiliateInput.val(function (index, value) { return affiliateCode; });
 	}
 
 });
