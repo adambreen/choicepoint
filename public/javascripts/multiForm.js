@@ -26,10 +26,16 @@ function formIsValid(){
 	;
 
 	if(! (firstName.length && lastName.length && email.length) ){
+		alert('あなたの姓名、および有効なメールアドレスを入力してください。');
 		return false;
 	}
 
-	return isValidEmail(email);
+	if(! (isValidEmail(email))){
+		alert('無効なメールアドレス');
+		return false;
+	}
+
+	return true;
 }
 
 function isValidEmail(toValidate){
