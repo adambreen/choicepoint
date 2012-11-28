@@ -12,6 +12,39 @@ function onInputBlur(e){
 	target.val($(this).val());
 }
 
-function onClickSend(){
-	$('#submitForm').submit();
+function onClickSend(e){
+	if(formIsValid()){
+		$('#submitForm').submit();
+	}
+}
+
+function formIsValid(){
+	var
+		firstName = $('#first_name').val(),
+		lastName  = $('#last_name').val(),
+		email     = $('#email').val()
+	;
+
+	if(! (firstName.length && lastName.length && email.length) ){
+		return false;
+	}
+
+	return isValidEmail(email);
+}
+
+function isValidEmail(toValidate){
+    var
+        ATOM = "[a-z0-9!#$%&'*+/=?^_`{|}~-]",
+        DOMAIN = "(" + ATOM + "+(\\." + ATOM + "+)+",
+        IP_DOMAIN = "\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\]",
+        PATTERN =
+            "^" + ATOM + "+(\\." + ATOM + "+)*@" +
+                    DOMAIN +
+                    "|" +
+                    IP_DOMAIN +
+                    ")$"
+    ;
+
+
+    return toValidate.match(PATTERN) ? true : false;
 }

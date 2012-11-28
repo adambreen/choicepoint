@@ -57,7 +57,9 @@ app.post(/test/, function (req, res){
     res.end(200);
 });
 
-
+app.post(/booking/, function (req, res){
+   
+});
 
 
 http.createServer(app).listen(app.get('port'), function(){
