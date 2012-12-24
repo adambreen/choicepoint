@@ -37,7 +37,8 @@ app.get(/info\/?.*/, function (req, res){
 });
 
 app.get(/annai\/?.*/, function (req, res){
-  res.sendfile('./public/pages/annai.html');
+  // res.sendfile('./public/pages/annai.html');
+  res.redirect('http://annai.choicepoint.jp');
 });
 
 app.get(/booking\/?.*/, function (req, res){
